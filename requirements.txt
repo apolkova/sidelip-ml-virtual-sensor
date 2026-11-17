@@ -1,0 +1,7 @@
+# Results in this repository were produced with Python 3.13, pandas 3.0, NumPy 2.5,
+# scikit-learn 1.9, SciPy 1.18 and Matplotlib 3.11 (preprocessing: pandas 2.3, Matplotlib 3.10).
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+scipy>=1.11
+matplotlib>=3.9

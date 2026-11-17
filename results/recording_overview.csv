@@ -1,0 +1,8 @@
+recording,role,raw_rows_50hz,raw_minutes,rows_10hz,rows_kept_moving,kept_minutes,removed_standstill_pct
+1,development,48381,16.1,9677,9188,15.3,5.1
+2,development,87475,29.2,17495,16299,27.2,6.8
+3,final test,112164,37.4,22433,21227,35.4,5.4
+4,development,270377,90.1,54076,47418,79.0,12.3
+5,development,184867,61.9,37007,29293,48.8,20.8
+6,development,193799,64.6,38763,35083,58.5,9.5
+7,development,41261,13.8,8253,6681,11.1,19.0

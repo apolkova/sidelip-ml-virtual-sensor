@@ -1,0 +1,30 @@
+Model comparison on 6 leave-one-recording-out folds (development set)
+Metric: RMSE (deg) of the best setting per model
+
+model          Linear regression  Random forest  Gradient boosting     MLP
+val_recording                                                             
+1                         0.3087         0.2215             0.2312  0.2231
+2                         0.2788         0.2054             0.2146  0.2025
+4                         0.3639         0.3076             0.3109  0.2955
+5                         0.3522         0.2571             0.2560  0.2279
+6                         0.2861         0.2780             0.2822  0.2657
+7                         0.5904         0.5489             0.4560  0.3056
+
+H0: all models have the same median RMSE (equal mean ranks)
+Friedman chi-square = 15.000, df = 3, p = 0.001817
+Decision at alpha = 0.05: reject H0
+
+Mean ranks (1 = best):
+model
+MLP                  1.167
+Random forest        2.167
+Gradient boosting    2.667
+Linear regression    4.000
+
+Nemenyi post-hoc: k = 4, N = 6, q_0.05 = 2.569, critical difference CD = 1.915
+  Linear regression vs Random forest: |rank diff| = 1.833 -> not significant
+  Linear regression vs Gradient boosting: |rank diff| = 1.333 -> not significant
+  Linear regression vs MLP: |rank diff| = 2.833 -> significant
+  Random forest vs Gradient boosting: |rank diff| = 0.500 -> not significant
+  Random forest vs MLP: |rank diff| = 1.000 -> not significant
+  Gradient boosting vs MLP: |rank diff| = 1.500 -> not significant

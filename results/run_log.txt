@@ -1,0 +1,102 @@
+Development set: 143962 rows, recordings [np.int64(1), np.int64(2), np.int64(4), np.int64(5), np.int64(6), np.int64(7)]
+Linear regression  | default                                | fold 1 (rec 1) RMSE 0.309  MAE 0.232  [0.1s]
+Linear regression  | default                                | fold 2 (rec 2) RMSE 0.279  MAE 0.220  [0.0s]
+Linear regression  | default                                | fold 3 (rec 4) RMSE 0.364  MAE 0.270  [0.0s]
+Linear regression  | default                                | fold 4 (rec 5) RMSE 0.352  MAE 0.259  [0.0s]
+Linear regression  | default                                | fold 5 (rec 6) RMSE 0.286  MAE 0.224  [0.0s]
+Linear regression  | default                                | fold 6 (rec 7) RMSE 0.590  MAE 0.392  [0.0s]
+Random forest      | max_depth=10, min_samples_leaf=5       | fold 1 (rec 1) RMSE 0.218  MAE 0.164  [7.3s]
+Random forest      | max_depth=10, min_samples_leaf=5       | fold 2 (rec 2) RMSE 0.211  MAE 0.156  [6.7s]
+Random forest      | max_depth=10, min_samples_leaf=5       | fold 3 (rec 4) RMSE 0.314  MAE 0.235  [5.2s]
+Random forest      | max_depth=10, min_samples_leaf=5       | fold 4 (rec 5) RMSE 0.270  MAE 0.197  [6.4s]
+Random forest      | max_depth=10, min_samples_leaf=5       | fold 5 (rec 6) RMSE 0.274  MAE 0.209  [5.9s]
+Random forest      | max_depth=10, min_samples_leaf=5       | fold 6 (rec 7) RMSE 0.552  MAE 0.285  [7.4s]
+Random forest      | max_depth=20, min_samples_leaf=5       | fold 1 (rec 1) RMSE 0.221  MAE 0.167  [9.9s]
+Random forest      | max_depth=20, min_samples_leaf=5       | fold 2 (rec 2) RMSE 0.205  MAE 0.153  [9.3s]
+Random forest      | max_depth=20, min_samples_leaf=5       | fold 3 (rec 4) RMSE 0.308  MAE 0.230  [7.1s]
+Random forest      | max_depth=20, min_samples_leaf=5       | fold 4 (rec 5) RMSE 0.257  MAE 0.187  [8.7s]
+Random forest      | max_depth=20, min_samples_leaf=5       | fold 5 (rec 6) RMSE 0.278  MAE 0.213  [8.5s]
+Random forest      | max_depth=20, min_samples_leaf=5       | fold 6 (rec 7) RMSE 0.549  MAE 0.280  [10.1s]
+Random forest      | max_depth=None, min_samples_leaf=20    | fold 1 (rec 1) RMSE 0.219  MAE 0.165  [8.7s]
+Random forest      | max_depth=None, min_samples_leaf=20    | fold 2 (rec 2) RMSE 0.205  MAE 0.153  [8.1s]
+Random forest      | max_depth=None, min_samples_leaf=20    | fold 3 (rec 4) RMSE 0.322  MAE 0.237  [6.5s]
+Random forest      | max_depth=None, min_samples_leaf=20    | fold 4 (rec 5) RMSE 0.278  MAE 0.198  [7.4s]
+Random forest      | max_depth=None, min_samples_leaf=20    | fold 5 (rec 6) RMSE 0.279  MAE 0.212  [6.9s]
+Random forest      | max_depth=None, min_samples_leaf=20    | fold 6 (rec 7) RMSE 0.655  MAE 0.313  [9.0s]
+Gradient boosting  | learning_rate=0.05, max_leaf_nodes=31  | fold 1 (rec 1) RMSE 0.222  MAE 0.168  [1.9s]
+Gradient boosting  | learning_rate=0.05, max_leaf_nodes=31  | fold 2 (rec 2) RMSE 0.217  MAE 0.160  [1.8s]
+Gradient boosting  | learning_rate=0.05, max_leaf_nodes=31  | fold 3 (rec 4) RMSE 0.314  MAE 0.234  [1.6s]
+Gradient boosting  | learning_rate=0.05, max_leaf_nodes=31  | fold 4 (rec 5) RMSE 0.264  MAE 0.194  [1.7s]
+Gradient boosting  | learning_rate=0.05, max_leaf_nodes=31  | fold 5 (rec 6) RMSE 0.280  MAE 0.214  [1.9s]
+Gradient boosting  | learning_rate=0.05, max_leaf_nodes=31  | fold 6 (rec 7) RMSE 0.472  MAE 0.261  [1.8s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=31   | fold 1 (rec 1) RMSE 0.231  MAE 0.174  [1.7s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=31   | fold 2 (rec 2) RMSE 0.215  MAE 0.158  [1.7s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=31   | fold 3 (rec 4) RMSE 0.311  MAE 0.232  [1.6s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=31   | fold 4 (rec 5) RMSE 0.256  MAE 0.188  [1.6s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=31   | fold 5 (rec 6) RMSE 0.282  MAE 0.215  [1.6s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=31   | fold 6 (rec 7) RMSE 0.456  MAE 0.254  [1.9s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=63   | fold 1 (rec 1) RMSE 0.232  MAE 0.174  [2.7s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=63   | fold 2 (rec 2) RMSE 0.217  MAE 0.160  [2.6s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=63   | fold 3 (rec 4) RMSE 0.313  MAE 0.233  [2.3s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=63   | fold 4 (rec 5) RMSE 0.255  MAE 0.187  [2.5s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=63   | fold 5 (rec 6) RMSE 0.286  MAE 0.217  [2.6s]
+Gradient boosting  | learning_rate=0.1, max_leaf_nodes=63   | fold 6 (rec 7) RMSE 0.470  MAE 0.250  [2.5s]
+MLP                | hidden=(64, 64), alpha=0.0001          | fold 1 (rec 1) RMSE 0.215  MAE 0.164  [5.7s]
+MLP                | hidden=(64, 64), alpha=0.0001          | fold 2 (rec 2) RMSE 0.207  MAE 0.155  [3.4s]
+MLP                | hidden=(64, 64), alpha=0.0001          | fold 3 (rec 4) RMSE 0.304  MAE 0.232  [3.9s]
+MLP                | hidden=(64, 64), alpha=0.0001          | fold 4 (rec 5) RMSE 0.236  MAE 0.178  [3.7s]
+MLP                | hidden=(64, 64), alpha=0.0001          | fold 5 (rec 6) RMSE 0.281  MAE 0.223  [4.1s]
+MLP                | hidden=(64, 64), alpha=0.0001          | fold 6 (rec 7) RMSE 0.295  MAE 0.205  [4.6s]
+MLP                | hidden=(128, 64), alpha=0.0001         | fold 1 (rec 1) RMSE 0.223  MAE 0.171  [8.1s]
+MLP                | hidden=(128, 64), alpha=0.0001         | fold 2 (rec 2) RMSE 0.202  MAE 0.152  [7.9s]
+MLP                | hidden=(128, 64), alpha=0.0001         | fold 3 (rec 4) RMSE 0.295  MAE 0.224  [5.8s]
+MLP                | hidden=(128, 64), alpha=0.0001         | fold 4 (rec 5) RMSE 0.228  MAE 0.172  [8.4s]
+MLP                | hidden=(128, 64), alpha=0.0001         | fold 5 (rec 6) RMSE 0.266  MAE 0.209  [7.4s]
+MLP                | hidden=(128, 64), alpha=0.0001         | fold 6 (rec 7) RMSE 0.306  MAE 0.209  [9.0s]
+MLP                | hidden=(128, 64), alpha=0.001          | fold 1 (rec 1) RMSE 0.226  MAE 0.174  [5.7s]
+MLP                | hidden=(128, 64), alpha=0.001          | fold 2 (rec 2) RMSE 0.204  MAE 0.153  [8.1s]
+MLP                | hidden=(128, 64), alpha=0.001          | fold 3 (rec 4) RMSE 0.297  MAE 0.225  [6.7s]
+MLP                | hidden=(128, 64), alpha=0.001          | fold 4 (rec 5) RMSE 0.230  MAE 0.173  [7.5s]
+MLP                | hidden=(128, 64), alpha=0.001          | fold 5 (rec 6) RMSE 0.292  MAE 0.228  [6.7s]
+MLP                | hidden=(128, 64), alpha=0.001          | fold 6 (rec 7) RMSE 0.301  MAE 0.207  [8.1s]
+Model comparison on 6 leave-one-recording-out folds (development set)
+Metric: RMSE (deg) of the best setting per model
+
+model          Linear regression  Random forest  Gradient boosting     MLP
+val_recording                                                             
+1                         0.3087         0.2215             0.2312  0.2231
+2                         0.2788         0.2054             0.2146  0.2025
+4                         0.3639         0.3076             0.3109  0.2955
+5                         0.3522         0.2571             0.2560  0.2279
+6                         0.2861         0.2780             0.2822  0.2657
+7                         0.5904         0.5489             0.4560  0.3056
+
+H0: all models have the same median RMSE (equal mean ranks)
+Friedman chi-square = 15.000, df = 3, p = 0.001817
+Decision at alpha = 0.05: reject H0
+
+Mean ranks (1 = best):
+model
+MLP                  1.167
+Random forest        2.167
+Gradient boosting    2.667
+Linear regression    4.000
+
+Nemenyi post-hoc: k = 4, N = 6, q_0.05 = 2.569, critical difference CD = 1.915
+  Linear regression vs Random forest: |rank diff| = 1.833 -> not significant
+  Linear regression vs Gradient boosting: |rank diff| = 1.333 -> not significant
+  Linear regression vs MLP: |rank diff| = 2.833 -> significant
+  Random forest vs Gradient boosting: |rank diff| = 0.500 -> not significant
+  Random forest vs MLP: |rank diff| = 1.000 -> not significant
+  Gradient boosting vs MLP: |rank diff| = 1.500 -> not significant
+
+                    rmse           mae  ... rmse_high_slip fit_seconds       
+                    mean    std   mean  ...            std        mean    std
+model                                   ...                                  
+Linear regression  0.363  0.116  0.266  ...          0.197       0.017  0.041
+Random forest      0.303  0.126  0.205  ...          0.215       8.933  1.098
+Gradient boosting  0.292  0.088  0.203  ...          0.150       1.683  0.117
+MLP                0.253  0.042  0.189  ...          0.070       7.767  1.100
+
+[4 rows x 8 columns]
+Saved results to /home/claude/ap9si/results and figures to /home/claude/ap9si/figures
